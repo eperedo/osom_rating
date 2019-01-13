@@ -1,0 +1,11 @@
+{
+  "name": "osom-rating-docs",
+  "version": "1.0.0",
+  "description": "documentation for the flutter widget osom_rating",
+  "scripts": {
+    "docs:build": ""
+  },
+  "keywords": [],
+  "author": "Eduardo P. Rivero <jrperedo@gmail.com> (https://blog.eperedo.com/)",
+  "license": "MIT"
+}

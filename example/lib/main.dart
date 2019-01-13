@@ -10,7 +10,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  double ratingValue = 3.5;
+  double ratingValue = 3.3;
 
   @override
   void initState() {
@@ -28,9 +28,9 @@ class _MyAppState extends State<MyApp> {
             child: Center(
               child: OsomRating(
                 rating: ratingValue,
-                sizeStar: 60,
-                minimunHalfValue: 4,
-                totalStars: 5,
+                sizeStar: 50,
+                minimunHalfValue: 2,
+                totalStars: 7,
                 onTapped: (currentRating) {
                   setState(() {
                     this.ratingValue = currentRating;
