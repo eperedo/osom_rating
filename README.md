@@ -2,6 +2,8 @@
 
 the most fun way to get a rating component for your flutter apps
 
+![osom](https://user-images.githubusercontent.com/461124/51090657-3758d500-174d-11e9-9d49-1798960dc2b0.gif)
+
 ### Installing
 
 Add the osom_rating to your pubspec.yaml file

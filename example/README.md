@@ -1,16 +1,51 @@
-# osom_rating_example
+# osom_rating
 
-Demonstrates how to use the osom_rating plugin.
+the most fun way to get a rating component for your flutter apps
 
-## Getting Started
+### Installing
 
-This project is a starting point for a Flutter application.
+Add the osom_rating to your pubspec.yaml file
 
-A few resources to get you started if this is your first Flutter project:
+```yaml
+dependencies:
+  osom_rating: 0.0.1
+```
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+then install the package using the get command
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter packages get
+```
+
+### Usage
+
+import it inside your app
+
+```dart
+import 'package:osom_rating/osom_rating.dart';
+```
+
+then create a new instance of the component
+
+```dart
+// by default it will generate five stars
+OsomRating();
+```
+
+### Options
+
+| Parameter          | Default       | Description                                                                                                    |
+| ------------------ | ------------- | -------------------------------------------------------------------------------------------------------------- |
+| `rating`           | 0             | the rating value                                                                                               |
+| `totalStars`       | 5             | the quantity of stars to generate                                                                              |
+| `colorStar`        | Colors.yellow | the color of the full star                                                                                     |
+| `colorEmptyStar`   | Colors.black  | the color of the empty star                                                                                    |
+| `sizeStar`         | 60            | the size of the stars                                                                                          |
+| `minimunHalfValue` | 5             | the decimal part to considered a star as a half value. 5 means any x.5 value will be considered as a half star |
+
+### Events
+
+| Event            | Param               |
+| ---------------- | ------------------- |
+| `onTapped`       | current index value |
+| `onDoubleTapped` | none                |
