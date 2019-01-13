@@ -1,7 +1,7 @@
 name: osom_rating
 description: A new flutter plugin project.
 version: 0.0.1
-author: Eduardo P. Rivero
+author: Eduardo P. Rivero <jrperedo@gmail.com>
 homepage: https://blog.eperedo.com
 
 environment:
