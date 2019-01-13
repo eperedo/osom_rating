@@ -10,28 +10,38 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  double ratingValue = 3.45;
+
   @override
   void initState() {
     super.initState();
-    // initPlatformState();
   }
-
-  // Platform messages are asynchronous, so we initialize in an async method.
-  // Future<void> initPlatformState() async {
-  //   // If the widget was removed from the tree while the asynchronous platform
-  //   // message was in flight, we want to discard the reply rather than calling
-  //   // setState to update our non-existent appearance.
-  //   if (!mounted) return;
-  // }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Osom Rating Demo'),
         ),
-        body: OsomRating(3),
+        body: OsomRating(
+          rating: ratingValue,
+          sizeStar: 60,
+          colorStar: Colors.blue,
+          colorEmptyStar: Colors.red,
+          minimunHalfValue: 4,
+          totalStars: 5,
+          onTapped: (currentRating) {
+            setState(() {
+              this.ratingValue = currentRating;
+            });
+          },
+          onDoubleTapped: () {
+            setState(() {
+              this.ratingValue = 0;
+            });
+          },
+        ),
       ),
     );
   }
