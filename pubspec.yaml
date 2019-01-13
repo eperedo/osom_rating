@@ -1,6 +1,6 @@
 name: osom_rating
 description: the most fun way to get a rating component for your flutter apps
-version: 0.0.2
+version: 0.0.3
 author: Eduardo P. Rivero <jrperedo@gmail.com>
 homepage: https://github.com/eperedo/osom_rating
 repository: https://github.com/eperedo/osom_rating
@@ -8,7 +8,7 @@ issue_tracker: https://github.com/eperedo/osom_rating/issues
 documentation:
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
 
 dependencies:
   flutter:
