@@ -1,13 +1,28 @@
 import 'package:flutter/material.dart';
 
 class OsomRating extends StatelessWidget {
+  /// The quantity of stars to be generated. Default to 5
   final int totalStars;
+
+  /// The rating value. Default to 0
   final double rating;
+
+  /// The color to be used for all the full/half stars. Default to yellow
   final Color colorStar;
+
+  /// The color to be used for all the empty stars. Default to black
   final Color colorEmptyStar;
+
+  /// The size of the stars. Default to 60.0
   final double sizeStar;
+
+  /// The size of the stars. Default to 60.0
   final int minimunHalfValue;
+
+  /// The event to be fired when user tap on a star.
   final onTapped;
+
+  /// The event to be fired when user makes a double tap on a star.
   final onDoubleTapped;
 
   OsomRating(
