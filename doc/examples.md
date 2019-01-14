@@ -46,7 +46,7 @@ OsomRating({
 
 ### Half Star
 
-By default an star needs a decimal value of .5 to be half painted. You can change that using the minimunHalfValue parameter. Let's paint the half of an star with a rating of 3.2
+By default a star needs a decimal value of .5 to be half painted. You can change that using the minimunHalfValue parameter. Let's paint the half of a star with a rating of 3.2
 
 ```dart
 OsomRating({

@@ -36,14 +36,14 @@ OsomRating();
 
 ### Options
 
-| Parameter          | Default       | Description                                                                                                     |
-| ------------------ | ------------- | --------------------------------------------------------------------------------------------------------------- |
-| `rating`           | 0             | the rating value                                                                                                |
-| `totalStars`       | 5             | the quantity of stars to generate                                                                               |
-| `colorStar`        | Colors.yellow | the color of the full star                                                                                      |
-| `colorEmptyStar`   | Colors.black  | the color of the empty star                                                                                     |
-| `sizeStar`         | 60            | the size of the stars                                                                                           |
-| `minimunHalfValue` | 5             | the decimal part to considered an star as a half value. 5 means any x.5 value will be considered as a half star |
+| Parameter          | Default       | Description                                                                                                    |
+| ------------------ | ------------- | -------------------------------------------------------------------------------------------------------------- |
+| `rating`           | 0             | the rating value                                                                                               |
+| `totalStars`       | 5             | the quantity of stars to generate                                                                              |
+| `colorStar`        | Colors.yellow | the color of the full star                                                                                     |
+| `colorEmptyStar`   | Colors.black  | the color of the empty star                                                                                    |
+| `sizeStar`         | 60            | the size of the stars                                                                                          |
+| `minimunHalfValue` | 5             | the decimal part to considered a star as a half value. 5 means any x.5 value will be considered as a half star |
 
 ### Events
 

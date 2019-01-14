@@ -16,7 +16,7 @@ class OsomRating extends StatelessWidget {
   /// The size of the stars. Default to 60.0
   final double sizeStar;
 
-  /// The size of the stars. Default to 60.0
+  /// The value to consider a star to be half painted. Default to 5
   final int minimunHalfValue;
 
   /// The event to be fired when user tap on a star.
